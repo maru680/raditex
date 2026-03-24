@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Raditex OÜ — usaldusväärne IT-partner Eesti väike- ja keskmistele ettevõtetele. IT-tugi, küberturvalisus, võrgulahendused ja pilvemigratsioon." />
+  <title>Raditex OÜ — Teie IT-partner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <header>
+    <nav class="nav" aria-label="Peamine navigatsioon">
+      <div class="container nav__inner">
+        <a href="index.html" class="nav__logo" aria-label="Raditex avaleht">RADI<span>TEX</span></a>
+
+        <ul class="nav__links" role="list">
+          <li><a href="index.html">Avaleht</a></li>
+          <li><a href="teenused.html">Teenused</a></li>
+          <li><a href="info.html">Info</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+
+        <a href="kontakt.html" class="btn btn-primary nav__cta">Võta ühendust</a>
+
+        <button class="nav__hamburger" aria-label="Ava menüü" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <nav class="nav__mobile" id="mobile-menu" aria-label="Mobiilne navigatsioon">
+        <a href="index.html">Avaleht</a>
+        <a href="teenused.html">Teenused</a>
+        <a href="info.html">Info</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="kontakt.html" class="btn btn-primary">Võta ühendust</a>
+      </nav>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__content">
+        <div class="hero__badge">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"><circle cx="6" cy="6" r="6"/></svg>
+          Eesti VKE-de IT-partner
+        </div>
+        <h1 class="hero__title" id="hero-title">
+          IT-lahendused, mis <em>tegelikult töötavad</em>
+        </h1>
+        <p class="hero__desc">
+          Raditex aitab Eesti ettevõtetel hoida IT-infrastruktuur korras, turvaline ja ajakohane — ilma et peaksite ise IT-spetsialisti olema.
+        </p>
+        <div class="hero__actions">
+          <a href="kontakt.html" class="btn btn-primary">Küsi tasuta konsultatsiooni</a>
+          <a href="teenused.html" class="btn btn-outline">Vaata teenuseid</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Services overview ===== -->
+    <section class="section" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section__header section__header--center">
+          <span class="section-label">Meie teenused</span>
+          <h2 class="section-title" id="services-heading">Kõik, mida teie IT vajab</h2>
+          <p class="section-subtitle">Pakume terviklikke IT-lahendusi — alates igapäevasest toest kuni strateegilise konsultatsioonini.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🖥️</div>
+            <h3 class="card__title">IT-tugi ja helpdesk</h3>
+            <p class="card__text">Kiire ja usaldusväärne tehniline tugi teie töötajatele — telefoni, e-posti ja kohapealse külastuse teel.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🔒</div>
+            <h3 class="card__title">Küberturvalisus</h3>
+            <p class="card__text">ISKE raamistikul ja ISO 27001-l põhinevad turvaauditid, mis kaitsevad teie andmeid ja mainet.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🌐</div>
+            <h3 class="card__title">Võrgu seadistamine</h3>
+            <p class="card__text">Usaldusväärsed ja turvalised võrgulahenduased — alates WiFi planeerimisest kuni tulekahju- ja andmetuvastussüsteemideni.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">☁️</div>
+            <h3 class="card__title">Pilvemigratsioon</h3>
+            <p class="card__text">Viime teie andmed ja rakendused pilve sujuvalt ja turvaliselt — Microsoft 365, Google Workspace ja muu.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">📊</div>
+            <h3 class="card__title">IT-strateegia konsultatsioon</h3>
+            <p class="card__text">Aitame planeerida IT-investeeringuid ja leida lahendusi, mis sobivad teie ettevõtte eesmärkidega.</p>
+          </article>
+
+          <article class="card" style="background: var(--color-primary); border-color: var(--color-primary);">
+            <div class="card__icon" style="background: rgba(255,255,255,0.1);" aria-hidden="true">💬</div>
+            <h3 class="card__title" style="color: var(--color-white);">Ei leia sobivat teenust?</h3>
+            <p class="card__text" style="color: rgba(255,255,255,0.7);">Võtke ühendust — leiame teile sobiva lahenduse.</p>
+            <a href="kontakt.html" class="btn btn-outline" style="margin-top: 1.25rem; font-size: 0.875rem; padding: 0.6rem 1.25rem;">Kirjuta meile</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Why us ===== -->
+    <section class="section section--light" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="section__header">
+          <span class="section-label">Miks Raditex?</span>
+          <h2 class="section-title" id="why-heading">Teie äri, meie prioriteet</h2>
+          <p class="section-subtitle">Oleme väikeste ja keskmiste ettevõtete IT-mured lahendanud juba aastaid.</p>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat__number">48h</span>
+            <p class="stat__label">Maksimaalne reageerimisaeg</p>
+          </div>
+          <div class="stat">
+            <span class="stat__number">50+</span>
+            <p class="stat__label">Rahuldatud klienti</p>
+          </div>
+          <div class="stat">
+            <span class="stat__number">5+</span>
+            <p class="stat__label">Aastat kogemust</p>
+          </div>
+          <div class="stat">
+            <span class="stat__number">100%</span>
+            <p class="stat__label">Eestikeelne tugi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-banner" aria-labelledby="cta-heading">
+      <div class="container">
+        <h2 class="cta-banner__title" id="cta-heading">Valmis IT-murede lõpetamiseks?</h2>
+        <p class="cta-banner__text">Tasuta esmakonsultatsioon — ilma kohustuste ja peene kiriata.</p>
+        <a href="kontakt.html" class="btn btn-outline">Broneeri konsultatsioon</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer" aria-label="Jalus">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo">RADI<span>TEX</span></div>
+          <p class="footer__tagline">Raditex OÜ — usaldusväärne IT-partner Eesti väike- ja keskmistele ettevõtetele.</p>
+        </div>
+
+        <div>
+          <p class="footer__heading">Navigatsioon</p>
+          <ul class="footer__links">
+            <li><a href="index.html">Avaleht</a></li>
+            <li><a href="teenused.html">Teenused</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer__heading">Kontakt</p>
+          <div class="footer__contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Tartu mnt 43, 10115 Tallinn</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9a16 16 0 0 0 6.91 6.91l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+372 5712 3456</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>info@raditex.ee</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© 2026 Raditex OÜ. Kõik õigused kaitstud.</span>
+        <span>Reg. nr: 16234571</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
